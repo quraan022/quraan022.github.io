@@ -1,0 +1,49 @@
+Sara Abozeina Quran & Qira'at Academy - Launch Notes
+
+This folder is a complete static website. It can be uploaded to any normal web host as-is.
+
+Main pages:
+- index.html
+- about.html
+- qualifications.html
+- ijazahs.html
+- courses.html
+- testimonials.html
+- faq.html
+- contact.html
+- book.html
+- 404.html
+
+Selected free address:
+- https://quraan022.github.io
+
+GitHub Pages setup:
+1. Sign in to GitHub with the quraan022 account.
+2. Create a new public repository named exactly: quraan022.github.io
+3. Upload the contents of this outputs folder into the repository root. Do not upload the outputs folder itself.
+4. Go to Settings > Pages.
+5. Set Source to Deploy from a branch, branch main, folder /root.
+6. Wait a few minutes, then open https://quraan022.github.io
+
+Before publishing:
+1. Open assets/js/site.js.
+2. Replace whatsappNumber with Sara's real WhatsApp number in international format, without + or spaces.
+3. Replace email with the real academy email address.
+4. The site is already configured for https://quraan022.github.io. Update it only if the final address changes.
+5. Replace certificate placeholders with real certificate scans.
+6. Replace testimonial placeholders with approved real student or parent reviews.
+7. Replace the remote Unsplash-style hero images with Sara's own teaching or brand photography when available.
+
+Suggested next content to collect:
+- Sara's exact bio and teaching history.
+- Verified Ijazah and certificate names.
+- Real student countries and age ranges.
+- Real WhatsApp number.
+- Public email address.
+- Preferred trial lesson duration.
+- Pricing packages, if they should be shown publicly.
+
+Deployment notes:
+- Keep robots.txt and sitemap.xml in the site root.
+- sitemap.xml is already set to https://quraan022.github.io URLs.
+- Many hosts automatically use 404.html for missing pages.
